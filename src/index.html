@@ -247,10 +247,24 @@
                 доступа к Sintegrum сейчас <br>
                 <span class="fw-300">(всего 23 места)</span>
             </h3>
-            <form action="" class="form">
-                <input type="text" placeholder="Ваше имя" class="input mb-2">
-                <input type="text" placeholder="Ваш телефон" class="input mb-2">
-                <input type="text" placeholder="Ваш e-mail" class="input mb-3">
+            <form action="https://forms.ontraport.com/v2.4/form_processor.php?" method="post" accept-charset="UTF-8" class="form">
+                <input type="text" name="firstname" placeholder="Ваше имя" class="input mb-2" required>
+                <input type="text" name="cell_phone" placeholder="Ваш телефон" class="input mb-2" required> 
+                <input type="text" name="email" placeholder="Ваш e-mail" class="input mb-3" required>
+                <input name="utmspecial_428" type="hidden" value="<?php echo (isset($_GET['utm_special']) ? $_GET['utm_special'] : ''); ?>"/>
+                <input name="utmcampaig_224" type="hidden" value="<?php echo (isset($_GET['utm_campaign']) ? $_GET['utm_campaign'] : ''); ?>"/>
+                <input name="utmmedium_225" type="hidden" value="<?php echo (isset($_GET['utm_medium']) ? $_GET['utm_medium'] : ''); ?>"/>
+                <input name="utmsource_223" type="hidden" value="<?php echo (isset($_GET['utm_source']) ? $_GET['utm_source'] : ''); ?>"/>
+                <input name="f2392" type="hidden" value="<?php echo (isset($_GET['utm_term']) ? $_GET['utm_term'] : ''); ?>" />
+                <input name="f2396" type="hidden" value="<?php echo (isset($_GET['utm_content']) ? $_GET['utm_content'] : ''); ?>" />
+                <input name="utm_source" type="hidden" value="<?php echo (isset($_GET['utm_source']) ? $_GET['utm_source'] : ''); ?>" />
+                <input name="utm_medium" type="hidden" value="<?php echo (isset($_GET['utm_medium']) ? $_GET['utm_medium'] : ''); ?>" />
+                <input name="utm_term" type="hidden" value="<?php echo (isset($_GET['utm_term']) ? $_GET['utm_term'] : ''); ?>" />
+                <input name="utm_content" type="hidden" value="<?php echo (isset($_GET['utm_content']) ? $_GET['utm_content'] : ''); ?>" />
+                <input name="utm_campaign" type="hidden" value="<?php echo (isset($_GET['utm_campaign']) ? $_GET['utm_campaign'] : ''); ?>" />
+                
+                <input name="uid" type="hidden" value="p2c9448f1124" />
+                <input name="mopsbbk" type="hidden" value="1D1265B9D2C408D5BA4C7D25:5A14ADD759167E136AF81A59" />
                 <button class="button">
                     Запросить Бесплатыный Доступ
                 </button>
@@ -813,18 +827,32 @@
             <h2 class="h2 text-white">
                 ЗАПРОСИТЬ 14 ДНЕЙ БЕСПЛАТНОГО ДОСТУПА
             </h2>
-            <form action="">
+            <form action="https://forms.ontraport.com/v2.4/form_processor.php?" method="post" accept-charset="UTF-8">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 mb-3">
-                        <input type="text" class="input" placeholder="Ваше имя">
+                        <input type="text" name="firstname" placeholder="Ваше имя" class="input mb-2" required>
                     </div>
                     <div class="col-lg-4 mb-3">
-                        <input type="text" class="input" placeholder="Ваш телефон">
+                        <input type="text" name="cell_phone" placeholder="Ваш телефон" class="input mb-2" required> 
                     </div>
                     <div class="col-lg-4 mb-3">
-                        <input type="text" class="input" placeholder="Ваш e-mail">
+                        <input type="text" name="email" placeholder="Ваш e-mail" class="input mb-3" required>
                     </div>
                     <div class="col-lg-5">
+                        <input name="utmspecial_428" type="hidden" value="<?php echo (isset($_GET['utm_special']) ? $_GET['utm_special'] : ''); ?>"/>
+                        <input name="utmcampaig_224" type="hidden" value="<?php echo (isset($_GET['utm_campaign']) ? $_GET['utm_campaign'] : ''); ?>"/>
+                        <input name="utmmedium_225" type="hidden" value="<?php echo (isset($_GET['utm_medium']) ? $_GET['utm_medium'] : ''); ?>"/>
+                        <input name="utmsource_223" type="hidden" value="<?php echo (isset($_GET['utm_source']) ? $_GET['utm_source'] : ''); ?>"/>
+                        <input name="f2392" type="hidden" value="<?php echo (isset($_GET['utm_term']) ? $_GET['utm_term'] : ''); ?>" />
+                        <input name="f2396" type="hidden" value="<?php echo (isset($_GET['utm_content']) ? $_GET['utm_content'] : ''); ?>" />
+                        <input name="utm_source" type="hidden" value="<?php echo (isset($_GET['utm_source']) ? $_GET['utm_source'] : ''); ?>" />
+                        <input name="utm_medium" type="hidden" value="<?php echo (isset($_GET['utm_medium']) ? $_GET['utm_medium'] : ''); ?>" />
+                        <input name="utm_term" type="hidden" value="<?php echo (isset($_GET['utm_term']) ? $_GET['utm_term'] : ''); ?>" />
+                        <input name="utm_content" type="hidden" value="<?php echo (isset($_GET['utm_content']) ? $_GET['utm_content'] : ''); ?>" />
+                        <input name="utm_campaign" type="hidden" value="<?php echo (isset($_GET['utm_campaign']) ? $_GET['utm_campaign'] : ''); ?>" />
+                        
+                        <input name="uid" type="hidden" value="p2c9448f1124" />
+                        <input name="mopsbbk" type="hidden" value="1D1265B9D2C408D5BA4C7D25:5A14ADD759167E136AF81A59" />
                         <button class="button w-100">
                             Запросить демо версию
                         </button>
@@ -874,6 +902,8 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="//forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?html=false&uid=p2c9448f1124"></script>
+
 </body>
 </html>
 
