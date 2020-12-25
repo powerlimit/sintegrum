@@ -136,6 +136,12 @@ $fontWeights: (300, 500, 700);
   }
 }
 
+.fz60 {
+  @include media-breakpoint-down(sm) {
+    font-size: 40px !important;
+  }
+}
+
 .header {
   min-height: 730px;
   background: url(../images/header-bg.png) no-repeat center center / cover;
@@ -191,6 +197,10 @@ article {
 .section {
   padding-top: 40px;
   padding-bottom: 60px;
+  @include media-breakpoint-down(sm) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .stats {
@@ -292,6 +302,12 @@ article {
   &:hover {
     background: darken($primary, 10%);
   }
+  @include media-breakpoint-down(sm) {
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
 }
 
 .input {
@@ -381,6 +397,16 @@ article {
   @include media-breakpoint-down(md) {
     max-width: 100%;
     min-width: 200px;
+  }
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}
+
+.timo {
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -485,6 +511,9 @@ article {
     &:before {
       display: none;
     }
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top: 50px;
   }
 }
 
