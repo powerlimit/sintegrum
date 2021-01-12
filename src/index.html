@@ -1,6 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Anti-flicker snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WJ3GRB5':true});</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38087671-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-38087671-1', { 'optimize_id': 'GTM-WJ3GRB5'});
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1051247724908752'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1051247724908752&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1922435651345158');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1922435651345158&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TZFD9SP');</script>
+<!-- End Google Tag Manager -->
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
@@ -9,6 +72,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZFD9SP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- GA GC -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38087671-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- GC GA -->
+    
+
 <div class="wrap">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between py-2 px-1 px-md-0">
@@ -84,7 +167,7 @@
                 <div class="relation-wrap mb-4 mb-lg-5">
                     <div class="relation-size"></div>
                     <div class="relation">
-                        <iframe src="https://www.youtube.com/embed/Vt86x_RU54Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/sJiM0YnDJmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div>
@@ -247,8 +330,8 @@
             </h3>
             <form action="https://forms.ontraport.com/v2.4/form_processor.php?" method="post" accept-charset="UTF-8" class="form">
                 <input type="text" name="firstname" placeholder="Ваше имя" class="input mb-2" required>
-                <input type="text" name="cell_phone" placeholder="Ваш телефон" class="input mb-2" required> 
-                <input type="text" name="email" placeholder="Ваш e-mail" class="input mb-3" required>
+                <input type="number" name="cell_phone" placeholder="Ваш телефон" class="input mb-2" required> 
+                <input type="email" name="email" placeholder="Ваш e-mail" class="input mb-3" required>
                 <input name="utmspecial_428" type="hidden" value="<?php echo (isset($_GET['utm_special']) ? $_GET['utm_special'] : ''); ?>"/>
                 <input name="utmcampaig_224" type="hidden" value="<?php echo (isset($_GET['utm_campaign']) ? $_GET['utm_campaign'] : ''); ?>"/>
                 <input name="utmmedium_225" type="hidden" value="<?php echo (isset($_GET['utm_medium']) ? $_GET['utm_medium'] : ''); ?>"/>
@@ -377,14 +460,14 @@
         <section class="section bg-light-blue">
             <div class="container">
                 <h2 class="h2 mx-auto" style="max-width: 890px;">
-                    Смотри Как Именно Sintegrum Будет Помогать Создать Твердый Устойчивый Бизнес, Который Не Зависит От Людей
+                    Sintegrum Будет Помогать Создать Твердый Устойчивый Бизнес, Который Не Зависит От Людей
                 </h2>
-                <div class="relation-wrap mb-4 mb-lg-6">
+               <!--  <div class="relation-wrap mb-4 mb-lg-6">
                     <div class="relation-size"></div>
                     <div class="relation">
                         <iframe src="https://www.youtube.com/embed/sJiM0YnDJmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                </div>
+                </div> -->
                 <h3 class="white-block h3 p-1 text-center mb-8">
                     Проходимость Sintegrum — 100%... <span class="fw-300">Это значит ваша&nbsp;<br>компания получает мощное конкурентное преимущество</span>
                 </h3>
@@ -508,16 +591,34 @@
             ПОЛУЧИТЬ ДОСТУП БЕСПЛАТНО
         </a>
         <h3 class="h3 text-white text-center mb-3">
-            ЭТО ЕЩЕ НЕ ВСЕ
+            ЭТО ЕЩЕ НЕ ВСЕ <br> Действуя сейчас ты получаешь
         </h3>
         <div class="graph mx-auto text-center mb-3">
             <img src="images/graph.png" class="img-fluid mb-1" alt="">
             <p class="fz18">
-                Действуя сейчас ты получаешь готовый трек с тренингом
-                для быстрого повышения продаж по системе StraightLine <strong>знаменитого “Волка с Уолл-Стрит” Джордана Белфорта “Менеджер На Миллион”</strong>
+                Готовый трек с тренингом
+                для быстрого повышения продаж по системе StraightLine <strong>знаменитого “Волка с Уолл-Стрит” Джордана Белфорта “Менеджер На Миллион”</strong> 
+                <br><br>
+                Это значит, что с несколькими кликами система зальет в головы твоих менеджеров лучшие знания по продажам, что с практически 100% вероятностью поднимут твои продажи без необходимости тебе вообще,  что-то делать
                 <br> <br class="d-inline">
                 ценностью $97 - <strong class="text-primary">БЕСПЛАТНО!</strong>
             </p>
+            <img src="images/graph1.png" class="img-fluid mb-1" alt="">
+            <p class="fz18"><strong>Пример готового трека "Менеджер кол-центра"</strong><br><br>
+
+                Это значит что тебе будет в разы проще создавать треки для любой должности в твоей компании быстро, просто копируя проверенные стратегии и научно обоснованные секреты систематизации знаний, чтобы они легко усваивались и гарантировано применяли.
+                <br> <br class="d-inline">
+                Ценность $197 - <strong class="text-primary">БЕСПЛАТНО!</strong>
+            </p>
+            <img src="images/graph2.png" class="img-fluid mb-1" alt="">
+            <p class="fz18"><strong>Готовый трек "ДНК твоей бизнес-империи" (создатель карт 2.0) с полной методологией превращения бизнеса в саморпзвивающуюся империю</strong> <br><br>
+
+                Откройте и внедрите "метод Корчевского", как построить бизнес вокруг систем, а не вокруг людей, чтобы вы как владелец бизнеса никогда не стали жертвой террора сотрудников.
+                Создайте системный бизнес, который НЕ ЗАВИСИТ ОТ “ЗВЕЗД”, освоив совершенно новый метод принудительной передачи знаний с твердым научным обоснованием.                
+                <br> <br class="d-inline">
+                Ценность $197 - <strong class="text-primary">БЕСПЛАТНО!</strong>
+            </p>
+
         </div>
         <p class="text-center text-white mb-4">
             Жми на кнопку и оставляй свой контакт, чтобы&nbsp;<br><strong>получить <span class="text-primary">доступ к  Sintegrum </span> на 14 дней&nbsp;<br><span class="text-primary">БЕСПЛАТНО</span> сейчас!</strong>
@@ -814,10 +915,10 @@
                         <input type="text" name="firstname" placeholder="Ваше имя" class="input mb-2" required>
                     </div>
                     <div class="col-lg-4 mb-3">
-                        <input type="text" name="cell_phone" placeholder="Ваш телефон" class="input mb-2" required> 
+                        <input type="number" name="cell_phone" placeholder="Ваш телефон" class="input mb-2" required> 
                     </div>
                     <div class="col-lg-4 mb-3">
-                        <input type="text" name="email" placeholder="Ваш e-mail" class="input mb-3" required>
+                        <input type="email" name="email" placeholder="Ваш e-mail" class="input mb-3" required>
                     </div>
                     <div class="col-lg-5">
                         <input name="utmspecial_428" type="hidden" value="<?php echo (isset($_GET['utm_special']) ? $_GET['utm_special'] : ''); ?>"/>
@@ -866,12 +967,43 @@
                     <span class="footer-text">ул. Жилянская 128/28, г. Киев</span>
                 </div>
             </div>
-            <div class="bg-black text-white text-center py-1 fz18">(c) Дмитрий Корчевский / Company Name - All Rights Reserved
+            <div class="bg-black text-white text-center py-1 fz18">(c) Дмитрий Корчевский / Sintegrum - All Rights Reserved
             </div>
         </div>
     </div>
 </div>
 <script type="text/javascript" src="//forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?html=false&uid=p2c9448f1124"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+    try {
+    w.yaCounter39253290 = new Ya.Metrika({
+    id: 39253290,
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true
+    });
+    } catch (e) {}
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function() {
+    n.parentNode.insertBefore(s, n);
+    };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://mc.yandex.ru/metrika/watch.js";
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+    } else {
+    f();
+    }
+    })(document, window, "yandex_metrika_callbacks");
+    </script> <noscript><div><img src="https://mc.yandex.ru/watch/39253290" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
 </body>
 </html>
